@@ -1,13 +1,13 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-import Wrapper from './Wrapper';
+import ImageWrapper from './ImageWrapper';
 
 function FeaturedImage({ sizes }) {
   return (
-    <Wrapper>
+    <ImageWrapper>
       <Img sizes={sizes} alt="" />
-    </Wrapper>
+    </ImageWrapper>
   );
 }
 
