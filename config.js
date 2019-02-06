@@ -7,7 +7,7 @@ module.exports = {
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://granderath.tech',
+    website: '/',
     github: 'https://github.com/mgranderath',
     twitter: 'https://twitter.com/mgranderath',
     linkedin: 'https://www.linkedin.com/in/malte-granderath',
