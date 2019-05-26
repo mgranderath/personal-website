@@ -6,7 +6,7 @@ const H1 = styled.h1`
   line-height: 1.5;
   margin: 0;
   padding: 0 30px;
-  text-align: center;
+  text-align: ${props => props.alignLeft ? "left" : "center"};
 `;
 
 export default H1;

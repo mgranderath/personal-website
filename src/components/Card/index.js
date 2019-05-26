@@ -15,10 +15,6 @@ const Card = styled.div`
     padding: 75px 15px;
     border-radius: 0;
   }
-  
-  &:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  }
 `;
 
 export default Card;

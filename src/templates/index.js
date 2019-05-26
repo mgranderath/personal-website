@@ -1,5 +1,6 @@
 import Helmet from 'react-helmet';
 import React from 'react';
+import { navigate } from "gatsby"
 
 import userConfig from '../../config';
 
@@ -27,7 +28,9 @@ const IndexPage = ({ pageContext }) => {
           />
         </Helmet>
         {group.map(({ node }) => (
-          <Card key={node.fields.slug}>
+          <Card key={node.fields.slug} onClick={() => {
+            navigate(node.fields.slug)
+          }}>
             <Summary
               date={node.frontmatter.date}
               title={node.frontmatter.title}

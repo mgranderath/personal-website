@@ -29,7 +29,7 @@ function Header({ config }) {
           />
         }
       </Wrapper>
-    </Container> 
+    </Container>
   );
 }
 
