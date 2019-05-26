@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Dev Blog', // Required
+  title: 'Developer Blog', // Required
   author: 'Malte Granderath', // Required
   description: 'CS Student and Tech Enthusiast',
   primaryColor: '#000', // Required
